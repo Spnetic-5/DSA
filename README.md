@@ -35,3 +35,6 @@
   
 # Resources:
  * [DSA Python Book](http://home.ustc.edu.cn/~huang83/ds/Data%20Structures%20and%20Algorithms%20Using%20Python.pdf)
+ * [Algorithms By Abdul Bari](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+ * [Data Structures](https://www.youtube.com/watch?v=_t2GVaQasRY&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12)
+ * [LeetCode-For Practice](https://leetcode.com/problemset/all/)
