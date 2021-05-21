@@ -34,7 +34,10 @@
   * Topological Sorting
   
 # Resources:
- * [DSA Python Book](http://home.ustc.edu.cn/~huang83/ds/Data%20Structures%20and%20Algorithms%20Using%20Python.pdf)
+ * [C++ Tutorials](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) 
+ * [STL](https://www.youtube.com/playlist?list=PL5jc9xFGsL8G3y3ywuFSvOuNm3GjBwdkb)
+ * [DSA 450](https://docs.google.com/spreadsheets/d/19kdnw1eMXiqxn3djH_27TVMXkKigldZWzqPp7VYTqfA/edit#gid=0)
+ * [DSA Book](http://home.ustc.edu.cn/~huang83/ds/Data%20Structures%20and%20Algorithms%20Using%20Python.pdf)
  * [Algorithms By Abdul Bari](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
  * [Data Structures](https://www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU)
  * [LeetCode-For Practice](https://leetcode.com/problemset/all/)
