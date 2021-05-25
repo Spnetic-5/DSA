@@ -3,6 +3,6 @@
 
 <p align="center">
 
-<img src="./assets/Time_complexity.PNG">
+<img src="./assets/Time_complexity">
 
 <p>
