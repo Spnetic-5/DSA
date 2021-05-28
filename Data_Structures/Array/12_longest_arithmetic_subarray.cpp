@@ -1,5 +1,5 @@
 // Time Complexity : 
-//  ------------------------------------------ SUM OF ALL SUBARRAYS -----------------------------------------------
+//  ------------------------------------------ LONGEST ARITHMETIC SUBARRAY -----------------------------------------------
 
 #include <iostream>
 using namespace std;
