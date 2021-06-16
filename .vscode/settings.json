@@ -4,6 +4,7 @@
   "C_Cpp_Runner.debuggerPath": "C:\\MinGW\\bin\\gdb.exe",
   "C_Cpp_Runner.makePath": "C:\\MinGW\\bin\\mingw32-make.exe",
   "files.associations": {
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "string": "cpp"
   }
 }
