@@ -5,6 +5,13 @@
   "C_Cpp_Runner.makePath": "C:\\MinGW\\bin\\mingw32-make.exe",
   "files.associations": {
     "ostream": "cpp",
-    "string": "cpp"
+    "string": "cpp",
+    "array": "cpp",
+    "bitset": "cpp",
+    "string_view": "cpp",
+    "initializer_list": "cpp",
+    "regex": "cpp",
+    "utility": "cpp",
+    "valarray": "cpp"
   }
 }
