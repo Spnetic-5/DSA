@@ -13,7 +13,7 @@ int BinarySearch(int arr[], int n, int val){
     while(l<=r){
         
         int mid = (l+r)/2;
-        cout<<"l: "<<l<<" r: "<<r<<" mid: "<<mid<<" arr[mid]: "<<arr[mid]<<endl;
+        // cout<<"l: "<<l<<" r: "<<r<<" mid: "<<mid<<" arr[mid]: "<<arr[mid]<<endl;
 
         if (arr[mid]>val){
             r = mid-1;
