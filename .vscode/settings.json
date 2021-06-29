@@ -13,6 +13,7 @@
     "regex": "cpp",
     "utility": "cpp",
     "valarray": "cpp",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "any": "cpp"
   }
 }
