@@ -59,7 +59,7 @@ void quick_sort(vector<int> &arr){
 
 
 int main() {
-    vector<int> arr = { 13, 24, 24, 10, 4, 12, 5, 6 };
+    vector<int> arr = { 6, 7, 2, 3, 55, 98, 11, 3 };
 
     quick_sort(arr);
 
