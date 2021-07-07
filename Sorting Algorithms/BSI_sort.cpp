@@ -61,7 +61,7 @@ void selectionSort(vector<int> &arr) {
 }
 
 int main() {
-    vector<int> arr = { 3, 4, 2, 10, 1, 12, 5, 6 };
+    vector<int> arr = { 6, 7, 2, 3, 55, 98, 11, 3 };
 
     bubbleSort(arr);
 
