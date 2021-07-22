@@ -33,7 +33,7 @@
 
 #### Arrays :
 
-- [ ] Subarray with given sum
+- [X] Subarray with given sum
 - [ ] Count the triplets
 - [ ] Kadane’s Algorithm
 - [ ] Missing number in array
