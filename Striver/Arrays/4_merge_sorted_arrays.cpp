@@ -42,8 +42,34 @@ void mergeArrays(int* arr1, int n, int* arr2, int m){
     for (int i = 0; i < m; i++){
         arr2[i] = arr3[i+n];
     }
+}
+
+// Insertion Method(Without extra space)
+// Time Complexity: O(logn) arr1 O(N)
+// Space Complexity: O(1)
 
 
+
+
+void merge(int arr1[], int arr2[], int m, int n)
+{
+    
+    for (int i = 0; i < m; i++)
+    {
+        
+        if (arr1[i] > arr2[0])
+        {
+            swap(arr1[i], arr2[0]);
+            int first = arr2[0];
+ 
+            int k;
+            for (k = 1; k < n && arr2[k] < first; k++) {
+                arr2[k - 1] = arr2[k];
+            }
+ 
+            arr2[k - 1] = first;
+        }
+    }
 }
 
 void printArray(int arr[], int n){
