@@ -4,7 +4,10 @@
 
 #include <iostream>
 using namespace std;
- 
+
+
+// Counting Sort  ------------ Time Complexity : O(2N)
+
 void sort012(int* arr, int n)
 {
     // Variables to maintain the count of 0's,
@@ -33,13 +36,41 @@ void sort012(int* arr, int n)
      
     return;
 }
+
+// Dutch National Flag Algorithm ------------ Time Complexity : O(N)
+
+void optimal_sort012(int* arr, int n)
+{
+    // Variables to maintain the count of 0's,
+    // 1's and 2's in the array
+    int low, mid, high;
+    low = 0;
+    mid = 0;
+    high = n - 1;
+    
+    while (mid <= high) {
+        if (arr[mid] == 0) {
+            swap(arr[mid], arr[low]);
+            low++;
+            mid++;
+        }
+        else if (arr[mid] == 1) {  
+            mid++;
+        }
+        else{
+            swap(arr[mid], arr[high]);
+            high--;
+        }     
+    }
+    return;
+}
  
 
 int main()
 {
-    int arr[] = { 0, 1, 1, 0, 1, 2, 1, 2 };
+    int arr[] = { 0, 1, 1, 0, 1, 2, 1, 2, 1, 0, 2, 1, 0, 1, 1, 2, 0 };
     int n = sizeof(arr) / sizeof(arr[0]);
-    sort012(arr, n);
+    optimal_sort012(arr, n);
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
     cout << endl;
