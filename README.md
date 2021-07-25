@@ -36,8 +36,8 @@
 - [X] Subarray with given sum
 - [X] Count the triplets
 - [ ] Kadane’s Algorithm
-- [ ] Missing number in array
-- [ ] Merge two sorted arrays
+- [X] Missing number in array
+- [X] Merge two sorted arrays
 - [ ] Rearrange array alternatively
 - [ ] Number of pairs
 - [ ] Inversion of Array
