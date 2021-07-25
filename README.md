@@ -33,8 +33,8 @@
 
 #### Arrays :
 
-- [ ] Subarray with given sum
-- [ ] Count the triplets
+- [X] Subarray with given sum
+- [X] Count the triplets
 - [ ] Kadane’s Algorithm
 - [ ] Missing number in array
 - [ ] Merge two sorted arrays
