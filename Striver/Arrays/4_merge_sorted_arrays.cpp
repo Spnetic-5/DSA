@@ -45,13 +45,12 @@ void mergeArrays(int* arr1, int n, int* arr2, int m){
 }
 
 // Insertion Method(Without extra space)
-// Time Complexity: O(logn) arr1 O(N)
+// Time Complexity:O(N x M)
 // Space Complexity: O(1)
 
 
 
-
-void merge(int arr1[], int arr2[], int m, int n)
+void merge1(int arr1[], int arr2[], int m, int n)
 {
     
     for (int i = 0; i < m; i++)
@@ -72,6 +71,46 @@ void merge(int arr1[], int arr2[], int m, int n)
     }
 }
 
+// Gap Method 
+// Time Complexity: O(logn) x O(N)
+// Space Complexity: O(1)
+
+// Function to find next gap.
+int nextGap(int gap)
+{
+    if (gap <= 1)
+        return 0;
+    return (gap / 2) + (gap % 2);
+}
+ 
+void merge2(int* arr1, int* arr2, int n, int m)
+{
+    int i, j, gap = n + m;
+    for (gap = nextGap(gap);
+         gap > 0; gap = nextGap(gap))
+    {
+        // comparing elements in the first array.
+        for (i = 0; i + gap < n; i++)
+            if (arr1[i] > arr1[i + gap])
+                swap(arr1[i], arr1[i + gap]);
+ 
+        // comparing elements in both arrays.
+        for (j = gap > n ? gap - n : 0;
+             i < n && j < m;
+             i++, j++)
+            if (arr1[i] > arr2[j])
+                swap(arr1[i], arr2[j]);
+ 
+        if (j < m) {
+            // comparing elements in the second array.
+            for (j = 0; j + gap < m; j++)
+                if (arr2[j] > arr2[j + gap])
+                    swap(arr2[j], arr2[j + gap]);
+        }
+    }
+}
+ 
+
 void printArray(int arr[], int n){
     for(int i=0; i<n;i++){
         cout<<arr[i]<<" ";
@@ -80,7 +119,7 @@ void printArray(int arr[], int n){
 }
 
 
-
+// Driver code 
 int main()
 {
     int arr1[10] = {2,3,4,6,7,8,9,10,15,19};
