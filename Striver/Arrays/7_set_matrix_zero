@@ -32,7 +32,7 @@ void setZeroes(vector<vector<int>> matrix) {
 
 \\ Optimized Approach
 \\ Time Complexity: O(M x N)
-\\ Space Complexity : O(M + N)
+\\ Space Complexity : O(1)
 
 
 void setZeroes(vector<vector<int>> matrix) {
