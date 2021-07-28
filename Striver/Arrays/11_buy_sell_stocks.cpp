@@ -19,7 +19,7 @@
  
 using namespace std;
  
-int maxProfit(vector<int>& stocks, int n){
+int maxProfitF(vector<int>& stocks, int n){
     int minPrice = INT_MAX;
     int maxProfit = 0;
 
@@ -35,7 +35,7 @@ int main()
 {   
     vector<int> stocks{ 1, 2, 3, 4, 5, 3, 9, 8, 6 };
     int n = stocks.size();
-    cout<<maxProfit(stocks, n);
+    cout<<maxProfitF(stocks, n);
 
     return 0;
 }
