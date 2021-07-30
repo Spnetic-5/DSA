@@ -40,7 +40,7 @@
 - [X] Merge two sorted arrays
 - [ ] Rearrange array alternatively
 - [ ] Number of pairs
-- [ ] Inversion of Array
+- [X] Inversion of Array
 - [ ] Sort an array of 0s, 1s and 2s
 - [ ] Equilibrium point
 - [ ] Leaders in an array
@@ -77,10 +77,10 @@
 
 - [ ] Find the element that appears once in sorted array
 - [ ] Search in a Rotated Array
-- [ ] Binary Search
+- [X] Binary Search
 - [ ] Sum of Middle Elements of two sorted arrays
-- [ ] Quick Sort
-- [ ] Merge Sort
+- [X] Quick Sort
+- [X] Merge Sort
 - [ ] K-th element of two sorted Arrays
 
 #### Backtracking :
