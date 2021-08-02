@@ -35,22 +35,22 @@
 
 - [X] Subarray with given sum
 - [X] Count the triplets
-- [ ] Kadane’s Algorithm
+- [X] Kadane’s Algorithm
 - [X] Missing number in array
 - [X] Merge two sorted arrays
 - [ ] Rearrange array alternatively
-- [ ] Number of pairs
+- [X] Number of pairs
 - [X] Inversion of Array
-- [ ] Sort an array of 0s, 1s and 2s
+- [X] Sort an array of 0s, 1s and 2s
 - [ ] Equilibrium point
 - [ ] Leaders in an array
 - [ ] Minimum Platforms
 - [ ] Reverse array in groups
-- [ ] K’th smallest element
+- [X] K’th smallest element
 - [ ] Trapping Rain Water
 - [ ] Pythagorean Triplet
 - [ ] Chocolate Distribution Problem
-- [ ] Stock buy and sell
+- [X] Stock buy and sell
 - [ ] Element with left side smaller and right side greater
 - [ ] Convert array into Zig-Zag fashion
 - [ ] Last Index of 1
