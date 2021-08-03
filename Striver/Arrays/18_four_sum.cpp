@@ -32,15 +32,15 @@ vector<vector<int>> fourSum(vector<int>& arr, int target){
     for(int i = 0; i<n; i++){
         for(int j = i+1; j < n; j++){
             int target_2 = target - (arr[i] + arr[j]);
-            left = j + 1;
-            right = n -1;
+            int left = j + 1;
+            int right = n -1;
             while(left<right){
                 int lr_sum = arr[left] + arr[right];
                 if(lr_sum<target_2){
                     left++;
                 }
                 else if(lr_sum > target_2){
-                    right++;
+                    right--;
                 }
                 else{
                     vector<int> quadruplet(4,0);
