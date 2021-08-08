@@ -22,7 +22,7 @@ ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
 
 
 
-// Optimum Approach TC: O(2M) or O(2N) SC: O(1)
+// 1st Optimum Approach TC: O(2M) or O(2N) SC: O(1)
 ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
          
 if(headA == NULL || headB == NULL) {
@@ -70,3 +70,31 @@ else{
 return tempA;
 }
         
+
+
+// 2nd Optimum Approach TC: O(2M) or O(2N) SC: O(1)
+ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+     if(headA == NULL || headB == NULL) {
+        return NULL;
+    }
+        
+    ListNode* tempA = headA;
+    ListNode* tempB = headB;
+        
+    while(tempA != tempB){
+            
+        if(tempA == NULL){
+        tempA = headB;
+        }
+        else{
+        tempA = tempA->next;
+        }
+        if(tempB == NULL){
+        tempB = headA;
+        }
+        else{
+        tempB = tempB->next;
+        }
+    }  
+return tempA;
+}
