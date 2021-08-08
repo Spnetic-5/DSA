@@ -114,13 +114,13 @@
 - [X] Reverse a linked list
 - [ ] Rotate a Linked List
 - [ ] Reverse a Linked List in groups of given size
-- [ ] Intersection point in Y shaped linked lists
+- [X] Intersection point in Y shaped linked lists
 - [ ] Detect Loop in linked list
 - [ ] Remove loop in Linked List
-- [ ] n’th node from end of linked list
+- [X] n’th node from end of linked list
 - [ ] Flattening a Linked List
 - [X] Merge two sorted linked lists
-- [ ] Intersection point of two Linked Lists
+- [X] Intersection point of two Linked Lists
 - [ ] Pairwise swap of a linked list
 - [ ] Add two numbers represented by linked lists
 - [ ] Check if Linked List is Palindrome
