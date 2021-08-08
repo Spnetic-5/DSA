@@ -40,7 +40,23 @@ void print_list(node *head){
    cout<<endl;    
 }
 
-
+node* middleNode(node* head) {
+    int len = 0;
+    node *crawl = head;
+    node *newHead = head;
+    while(crawl != NULL){
+        len++;
+        crawl = crawl->next;            
+    }
+    int mid = (len/2) + 1;
+    // cout<<len << " " <<mid<<endl;
+    while(--mid>0){
+        cout<<mid<<" ";
+        print_list(newHead);
+        newHead = newHead->next;
+    }
+    return newHead;
+}
 
 int main()
 {
@@ -51,6 +67,7 @@ int main()
     ll = insert(ll, 4);
     ll = insert(ll, 8);
     print_list(ll);
+    print_list(middleNode(ll));
 
     return 0;
 }
