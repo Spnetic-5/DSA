@@ -1,3 +1,51 @@
+// GFG
+// TC: O(NlogN) + O(NxM)
+// SC: O(M)  
+
+bool comp(Job a, Job b){
+    return (a.profit > b.profit);
+};
+    
+vector<int> JobScheduling(Job arr[], int n) 
+{ 
+    // your code here
+       
+    sort(arr, arr+n, [this] (Job a, Job b){
+        return comp(a,b);
+    });
+        
+    int maxi= arr[0].dead;
+    for(int i = 1; i<n; i++){
+        maxi = max(maxi, arr[i].dead);
+    }
+    int slot[maxi +1];
+        
+    for(int i = 0; i<maxi; i++){
+        slot[i] = -1;
+    }
+        
+    int countJobs = 0, jobProfit = 0;
+        
+    for(int i=0; i<n; i++){
+        for(int j = arr[i].dead; j>0; j++){
+            if(slot[j]==-1){
+                slot[j] = i;
+                countJobs++;
+                jobProfit+=arr[i].profit;
+                break;
+            }
+        }
+    }
+    vector<int> result;
+    result[0] = jobProfit;
+    result[1] = countJobs;
+ return result;   
+} 
+
+
+
+
+// Leetcode
 struct Data{
         int s,e,c;
         Data(int x, int y, int z){
