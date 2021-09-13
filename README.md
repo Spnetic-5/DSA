@@ -38,40 +38,40 @@
 - [X] Kadane’s Algorithm
 - [X] Missing number in array
 - [X] Merge two sorted arrays
-- [ ] Rearrange array alternatively
+- [X] Rearrange array alternatively
 - [X] Number of pairs
 - [X] Inversion of Array
 - [X] Sort an array of 0s, 1s and 2s
-- [ ] Equilibrium point
-- [ ] Leaders in an array
-- [ ] Minimum Platforms
-- [ ] Reverse array in groups
+- [X] Equilibrium point
+- [X] Leaders in an array
+- [X] Minimum Platforms
+- [X] Reverse array in groups
 - [X] K’th smallest element
-- [ ] Trapping Rain Water
-- [ ] Pythagorean Triplet
-- [ ] Chocolate Distribution Problem
+- [X] Trapping Rain Water
+- [X] Pythagorean Triplet
+- [X] Chocolate Distribution Problem
 - [X] Stock buy and sell
-- [ ] Element with left side smaller and right side greater
-- [ ] Convert array into Zig-Zag fashion
-- [ ] Last Index of 1
-- [ ] Spirally traversing a matrix
-- [ ] Largest Number formed from an Array
+- [X] Element with left side smaller and right side greater
+- [X] Convert array into Zig-Zag fashion
+- [X] Last Index of 1
+- [X] Spirally traversing a matrix
+- [X] Largest Number formed from an Array
 
 #### String :
 
-- [ ] Reverse words in a given string
-- [ ] Permutations of a given string
-- [ ] Longest Palindrome in a String
-- [ ] Recursively remove all adjacent duplicates
-- [ ] Check if string is rotated by two places
-- [ ] Roman Number to Integer
-- [ ] Anagram
-- [ ] Remove Duplicates
-- [ ] Form a Palindrome
-- [ ] Longest Distinct Characters in the string
-- [ ] Implement Atoi
-- [ ] Implement strstr
-- [ ] Longest Common Prefix
+- [X] Reverse words in a given string
+- [X] Permutations of a given string
+- [X] Longest Palindrome in a String
+- [X] Recursively remove all adjacent duplicates
+- [X] Check if string is rotated by two places
+- [X] Roman Number to Integer
+- [X] Anagram
+- [X] Remove Duplicates
+- [X] Form a Palindrome
+- [X] Longest Distinct Characters in the string
+- [X] Implement Atoi
+- [X] Implement strstr
+- [X] Longest Common Prefix
 
 #### Divide and Conquer :
 
