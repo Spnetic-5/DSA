@@ -1,37 +1,29 @@
-// Time Complexity : O(N)
-#include <iostream>
-#include <bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
+class Complex{
+    private:
+        int real;
+        int imag;
+    public:
+        Complex(int i = 0, int r = 0){
+            real = r;
+            imag = i;
+        }
 
-vector<int> subarraySum(int arr[], int n, int s)
-    {
-        int curr_sum = arr[0], start = 0, i;
-        vector<int> A;
-    for (i = 1; i <= n; i++) {
-        
-        while (curr_sum > s && start < i - 1) {
-            curr_sum = curr_sum - arr[start];
-            start++;
+        Complex operator +(Complex const &obj){
+            Complex res;
+            res.real = real + obj.real;
+            res.imag = imag + obj.imag;
+            return res;
         }
-    
-        if (curr_sum == s) {
-            A.push_back(start+1);
-            A.push_back(i);
-            return A;
-        }
-        if (i < n)
-            curr_sum = curr_sum + arr[i];
-    }
-    A.push_back(-1);
-    return A;
-    }
- 
+         void print() {
+             cout << real << " + i" << imag << endl;
+          }
+};
 int main()
 {
-    int arr[] = { 15, 2, 4, 8, 9, 5, 10, 23 };
-    int n = sizeof(arr) / sizeof(arr[0]);
-    int sum = 23;
-    subArraySum(arr, n, sum);
-    return 0;
+    Complex c1(10, 5), c2(2, 4);
+    Complex c3 = c1 + c2; // An example call to "operator+"
+    c3.print();
 }
