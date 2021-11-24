@@ -75,32 +75,32 @@
 
 #### Divide and Conquer :
 
-- [ ] Find the element that appears once in sorted array
-- [ ] Search in a Rotated Array
+- [X] Find the element that appears once in sorted array
+- [X] Search in a Rotated Array
 - [X] Binary Search
-- [ ] Sum of Middle Elements of two sorted arrays
+- [X] Sum of Middle Elements of two sorted arrays
 - [X] Quick Sort
 - [X] Merge Sort
-- [ ] K-th element of two sorted Arrays
+- [X] K-th element of two sorted Arrays
 
 #### Backtracking :
 
-- [ ] N-Queen Problem
-- [ ] Solve the Sudoku
-- [ ] Rat in a Maze Problem
-- [ ] Word Boggle
-- [ ] Generate IP Addresses
+- [X] N-Queen Problem
+- [X] Solve the Sudoku
+- [X] Rat in a Maze Problem
+- [X] Word Boggle
+- [X] Generate IP Addresses
 
 #### Bit Magic :
 
-- [ ] Find first set bit
+- [X] Find first set bit
 - [ ] Rightmost different bit
-- [ ] Check whether K-th bit is set or not
+- [X] Check whether K-th bit is set or not
 - [ ] Toggle bits given range
-- [ ] Set kth bit
-- [ ] Power of 2
+- [X] Set kth bit
+- [X] Power of 2
 - [ ] Bit Difference
-- [ ] Rotate Bits
+- [X] Rotate Bits
 - [ ] Swap all odd and even bits
 - [ ] Count total set bits
 - [ ] Longest Consecutive 1’s
@@ -110,15 +110,15 @@
 
 #### Linked List :
 
-- [ ] Finding middle element in a linked list
+- [X] Finding middle element in a linked list
 - [X] Reverse a linked list
-- [ ] Rotate a Linked List
-- [ ] Reverse a Linked List in groups of given size
+- [X] Rotate a Linked List
+- [X] Reverse a Linked List in groups of given size
 - [X] Intersection point in Y shaped linked lists
-- [ ] Detect Loop in linked list
-- [ ] Remove loop in Linked List
+- [X] Detect Loop in linked list
+- [X] Remove loop in Linked List
 - [X] n’th node from end of linked list
-- [ ] Flattening a Linked List
+- [X] Flattening a Linked List
 - [X] Merge two sorted linked lists
 - [X] Intersection point of two Linked Lists
 - [ ] Pairwise swap of a linked list
@@ -131,7 +131,7 @@
 
 #### Stack and Queue :
 
-- [ ] Parenthesis Checker
+- [X] Parenthesis Checker
 - [ ] Next larger element
 - [ ] Queue using two Stacks
 - [ ] Stack using two queues
@@ -164,7 +164,7 @@
 #### Heap :
 
 - [ ] Find median in a stream
-- [ ] Heap Sort
+- [X] Heap Sort
 - [ ] Operations on Binary Min Heap
 - [ ] Rearrange characters
 - [ ] Kth largest element in a stream
@@ -173,11 +173,11 @@
 
 #### Recursion :
 
-- [ ] Flood fill Algorithm
-- [ ] Number of paths
-- [ ] Combination Sum – Part 2
-- [ ] Special Keyboard
-- [ ] Josephus problem
+- [X] Flood fill Algorithm
+- [X] Number of paths
+- [X] Combination Sum – Part 2
+- [X] Special Keyboard
+- [X] Josephus problem
 
 #### Hashing :
 
@@ -203,8 +203,8 @@
 
 #### Graph :
 
-- [ ] Depth First Traversal
-- [ ] Breadth First Traversal
+- [X] Depth First Traversal
+- [X] Breadth First Traversal
 - [ ] Detect cycle in undirected graph
 - [ ] Detect cycle in a directed graph
 - [ ] Topological sort
@@ -222,9 +222,9 @@
 
 #### Greedy :
 
-- [ ] Activity Selection
-- [ ] N meetings in one room
-- [ ] Coin Piles
+- [X] Activity Selection
+- [X] N meetings in one room
+- [X] Coin Piles
 - [ ] Maximize Toys
 - [ ] Page Faults in LRU
 - [ ] Largest number possible
