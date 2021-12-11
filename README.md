@@ -239,11 +239,11 @@
 
 - [ ] Minimum Operations
 - [ ] Max length chain
-- [ ] Minimum number of Coins
+- [X] Minimum number of Coins
 - [ ] Longest Common Substring
 - [ ] Longest Increasing Subsequence
 - [ ] Longest Common Subsequence
-- [ ] 0 – 1 Knapsack Problem
+- [X] 0 – 1 Knapsack Problem
 - [ ] Maximum sum increasing subsequence
 - [ ] Minimum number of jumps
 - [ ] Edit Distance
