@@ -34,4 +34,4 @@ output.txt
 *.out
 *.app
 
-
+*.json
