@@ -254,7 +254,7 @@
 - [ ] Path in Matrix
 - [ ] Minimum sum partition
 - [ ] Count number of ways to cover a distance
-- [ ] Egg Dropping Puzzle
+- [X] Egg Dropping Puzzle
 - [ ] Optimal Strategy for a Game
 - [ ] Shortest Common Supersequence
 
