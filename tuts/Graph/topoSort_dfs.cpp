@@ -19,37 +19,40 @@
  
 using namespace std;
 
-bool dfsCycle(int node, vector<int> adj[], int vis[], int dfsvis[]){
+void dfs(int node, vector<int> adj[], int vis[], stack<int> &st){
 
     if(!vis[node]) {
         vis[node] = 1;
-        dfsvis[node] = 1;
         }
     
     for(auto it: adj[node]){
         if(!vis[it]){
-            if(dfsCycle(it, adj, vis, dfsvis)) return true;
-        }
-        else if(dfsvis[it] == 1){
-            return true;
+            dfs(it, adj, vis, st);
         }
     }
-    dfsvis[node] = 0;
-    return false;
+    
+    st.push(node);
 }
 
-bool detectCycle(int N, vector<int> adj[]){
+vector<int> topoSort(int N, vector<int> adj[]){
+
     int vis[N+1];
-    int dfsvis[N+1];
+    stack<int> st;
     memset(vis, 0, sizeof vis);
-    memset(dfsvis, 0, sizeof dfsvis);
 
     for(int i = 0; i <= N; i++){
         if(!vis[i]){
-            if(dfsCycle(i, adj, vis, dfsvis)) return true;
+            dfs(i, adj, vis, st);
         }
     }
-    return false;
+
+    vector<int> topo;
+    while(!st.empty()){
+        topo.push_back(st.top());
+        st.pop();
+    }
+
+    return topo;
 }
 
 
@@ -66,12 +69,11 @@ int main()
         adj[u].push_back(v);
     }
 
-    if (detectCycle(n, adj)){
-        cout<<"True";
+    vector<int> ans;
+    ans = topoSort(n, adj);
+    for(int i = 0; i < ans.size(); i++){
+        cout<<ans[i]<<" ";
     }
-    else{
-        cout<<"False";
-    }
-
+    cout<<endl;
     return 0;
 }
