@@ -34,7 +34,7 @@ void dijkstraShortestPath(int N, vector<pair<int, int>> adj[], int src){
         for(auto it:adj[prev]){
             int next = it.first;
             int nextDist = it.second;
-            if(dist[next] > dist[prev] + nextDist){
+            if(dist[prev] + nextDist < dist[next]) {
                 dist[next] =  dist[prev] + nextDist;
                 pq.push(make_pair(dist[next], next));
             }
