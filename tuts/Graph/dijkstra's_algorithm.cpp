@@ -31,14 +31,16 @@ void dijkstraShortestPath(int N, vector<pair<int, int>> adj[], int src){
         pq.pop();
 
         vector<pair<int, int>>:: iterator it;
-        for(auto it:adj[prev]){
-            int next = it.first;
-            int nextDist = it.second;
-            if(dist[prev] + nextDist < dist[next]) {
-                dist[next] =  dist[prev] + nextDist;
-                pq.push(make_pair(dist[next], next));
+        for(auto it:adj[prev])
+            {
+                int next = it.first;
+                int nextDist = it.second;
+                if(dist[prev] + nextDist < dist[next]) 
+                    {
+                        dist[next] =  dist[prev] + nextDist;
+                        pq.push(make_pair(dist[next], next));
+                    }
             }
-        }
     }
     for(int i = 0; i < N; i++){
         cout << dist[i] << " ";
